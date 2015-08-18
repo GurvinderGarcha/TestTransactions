@@ -1,6 +1,9 @@
 # TestTransactions
 
-Please update the connection string in the web config file. And to create new database and run the  following query against that database.
+Please update the connection string in the web config file.
+
+The local database mdf file can be used for the database with updated connection string or
+create new database and run the  following query against that database.
 
 Create database TransactionData
 (
