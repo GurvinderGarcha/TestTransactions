@@ -1,15 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Transactions.Web", "WebApplication2\Test.Transactions.Web.csproj", "{03C9F687-9421-4A48-8098-29A46D7E8251}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Transactions.Web", "Test.Transactions.Web\Test.Transactions.Web.csproj", "{03C9F687-9421-4A48-8098-29A46D7E8251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2.Tests", "WebApplication2.Tests\WebApplication2.Tests.csproj", "{2FEA4C0E-ED0A-4805-AC61-AD6D9AA99763}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Transactions.Tests", "Test.Transactions.Tests\Test.Transactions.Tests.csproj", "{2FEA4C0E-ED0A-4805-AC61-AD6D9AA99763}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Transactions.Core", "Test.Transactions.Core\Test.Transactions.Core.csproj", "{F6559023-0428-48B0-B707-3F58B4300F17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Transactions.Common", "Test.Transactions.Common\Test.Transactions.Common.csproj", "{404570B9-C084-453B-975B-98BFEA5F7BEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Transactions.Infrastructure", "Test.Transactions.Infrastructure\Test.Transactions.Infrastructure.csproj", "{D0188D80-5753-4CB8-BFAD-529F22E5BEB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{53761078-E293-4ED6-ACE9-AE449588DF55}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
