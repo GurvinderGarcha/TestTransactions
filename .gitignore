@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Test.Transactions/Test.Transactions.Common/obj/Debug
+/Test.Transactions/Test.Transactions.Core/bin/Debug
+/Test.Transactions/Test.Transactions.Core/obj/Debug
+/Test.Transactions/Test.Transactions.Infrastructure/obj/Debug
+/Test.Transactions/WebApplication2/bin
+/Test.Transactions/WebApplication2/obj/Debug
+/Test.Transactions/WebApplication2.Tests/bin/Debug
+/Test.Transactions/WebApplication2.Tests/obj/Debug
